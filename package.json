@@ -1,0 +1,32 @@
+{
+  "name": "node-api",
+  "version": "0.0.1",
+  "description": "Node JS API",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js --exec babel-node",
+    "build": "babel src -d dist",
+    "serve": "node dist/index.js",
+    "test": "mocha --compilers js:babel-register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ItsNoHax/node-api.git"
+  },
+  "author": "Alberto Blanco",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ItsNoHax/node-api/issues"
+  },
+  "homepage": "https://github.com/ItsNoHax/node-api#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-register": "^6.26.0",
+    "eslint": "^4.6.1",
+    "eslint-config-airbnb-base": "^12.0.0",
+    "eslint-plugin-import": "^2.7.0",
+    "mocha": "^3.5.0",
+    "nodemon": "^1.12.0"
+  }
+}

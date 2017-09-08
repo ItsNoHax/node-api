@@ -1,0 +1,4 @@
+{
+    "ignore": ["test/*", "docs/*"],
+    "delay": "3000"
+}
