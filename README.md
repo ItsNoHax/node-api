@@ -1,5 +1,6 @@
-# node-api
+# node-api ![alt text](https://travis-ci.org/ItsNoHax/node-api.svg?branch=master "Travis CI build status")
 A RESTful node API implementation
+
 
 ### NPM Commands
 
