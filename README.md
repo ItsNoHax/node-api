@@ -33,4 +33,8 @@ npm run test
 - mocha
 - nodemon
 - eslint
+- Travis CLI
+- mongodb
+- mongoose
+- express
 
