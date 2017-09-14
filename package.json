@@ -4,9 +4,9 @@
   "description": "Node JS API",
   "main": "src/index.js",
   "scripts": {
-    "start": "nodemon src/index.js --exec babel-node",
+    "start": "nodemon src/server.js --exec babel-node",
     "build": "babel src -d dist",
-    "serve": "node dist/index.js",
+    "serve": "node dist/server.js",
     "test": "mocha --recursive --compilers js:babel-register"
   },
   "repository": {
@@ -30,6 +30,8 @@
     "nodemon": "^1.12.0"
   },
   "dependencies": {
-    "express": "^4.15.4"
+    "body-parser": "^1.18.1",
+    "express": "^4.15.4",
+    "mongoose": "^4.11.11"
   }
 }
