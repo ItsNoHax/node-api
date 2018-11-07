@@ -1,11 +1,5 @@
 import express from 'express';
 import bodyParser from 'body-parser';
-import mongoose from 'mongoose';
-
-// Connect to MongoDB
-mongoose.connect('mongodb://localhost/myapp', {
-  useMongoClient: true,
-});
 
 const app = express();
 
