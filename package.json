@@ -21,16 +21,16 @@
   "homepage": "https://github.com/ItsNoHax/node-api#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.6.0",
+    "babel-preset-env": "^1.7.0",
     "babel-register": "^6.26.0",
-    "eslint": "^4.6.1",
-    "eslint-config-airbnb-base": "^12.0.0",
-    "eslint-plugin-import": "^2.7.0",
-    "mocha": "^3.5.0",
-    "nodemon": "^1.12.0"
+    "eslint": "^5.8.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.6"
   },
   "dependencies": {
-    "body-parser": "^1.18.1",
-    "express": "^4.15.4",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
   }
 }
