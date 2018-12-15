@@ -2,6 +2,8 @@ import express from 'express';
 import bodyParser from 'body-parser';
 import dotenv from 'dotenv';
 
+import db from './database/connection'; // eslint-disable-line
+
 // Load environment variables
 dotenv.config();
 
