@@ -3,9 +3,9 @@
   "version": "0.0.1",
   "description": "Node JS API",
   "scripts": {
-    "start": "nodemon src/server.js --exec babel-node",
+    "start": "nodemon src/server.js --exec 'node --require dotenv/config  --require babel-register'",
     "build": "babel src -d dist",
-    "serve": "node dist/server.js",
+    "serve": "node --require dotenv/config dist/server.js",
     "test": "mocha --recursive --require babel-register",
     "lint": "eslint src/** test/**"
   },
