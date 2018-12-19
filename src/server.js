@@ -27,6 +27,8 @@ router.get('/', (req, res) => {
 
 // Prefix all routes with /Api
 app.use('/api', router);
-app.listen(port);
 
-console.log(`Server listening on port: ${port}`); // eslint-disable-line
+db.sync().then(() => {
+  app.listen(port);
+  console.log(`Server listening on port: ${port}`); // eslint-disable-line
+});
